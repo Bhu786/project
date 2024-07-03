@@ -1,0 +1,122 @@
+div.a{
+ font-size: 169px;
+}
+
+div.b{
+font-size: medium;
+}
+
+div.c{
+font-size: 150px;
+}
+
+
+h1.a{    
+letter-spacing: 23px;
+}
+
+h1.b{    
+    letter-spacing: 23px;
+    }
+
+ h1.c{    
+        letter-spacing: 23px;
+        }
+
+
+
+
+
+
+
+
+
+.box-model{
+            width: 400px;
+            height: 300px;
+            background-color: red;
+            border: 10px solid black;
+            margin: 100px 30px 34px 55px;
+            color: blue;
+
+            padding: 40px 40px 40px 40px;
+
+        
+        }
+
+
+
+
+
+        /* border */
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+
+
+
+/* border raadius */
+p.border-radius {border-radius: 15px;}
+
+
+p.border-radius{
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    border: 10px solid black;
+    margin: 100px 30px 3px 55px;
+    color: blue;
+
+    padding: 40px 10px 10px 40px;
+
+
+}
+
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+    
+}
+
+
+
+.card1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 2px solid black;
+    /* display: block; */
+    /* column me aayega */
+    /* display: inline; */
+    /* rwo me aayega aur content jitna hoga utna hi space lega */
+    /* display: inline-block; */
+    /* row me rhaega aur height aur width bhi de payege */
+
+    display: inline-block;
+    
+}
+.card2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(8, 243, 59);
+    border: 2px solid black;
+  display: inline-block;
+}
+.card3{
+    height: 200px;
+    width:200px;
+    background-color: rgb(245, 138, 7);
+    border: 2px solid black;
+    display: inline-block;
+}
